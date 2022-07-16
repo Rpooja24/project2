@@ -43,11 +43,29 @@ padding-right:8px;}
 }
     
 .item-2{
-    grid-template-columns: end;
+    
+    display:block;
+    margin:0.2em;
+    padding:3px;
+    background-color: bisque;
 }
 
 .item-3{
-    grid-template-columns: end;
+    
+    display:block;
+    margin:0.2em;
+    padding:3px;
+    background-color: lawngreen;
+}
+
+.item-4{
+    text-align: center;
+    font-size:1em;
+    display:block;
+    margin:0.1em;
+    padding:3px;
+    background-color:rosybrown;
+    grid-column: 1/3;
 }
 
 
